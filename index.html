@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Calculadora</title>
+ </head>
+ 
+ <body>
+     <header>
+        <h1>Calculadora!</h1>
+
+     </header>
+
+
+     <section class='form-section'>
+        <div id ='form'>
+            <input type="number" id="n1" placeholder="Digite o primeiro número"><br> <br>
+            <select id='selector'>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">X</option>
+                <option value="/">/</option>
+            </select><br> <br> 
+            <input type="number" id="n2" placeholder="Digite o segundo número"><br> <br> <br>
+            <button onclick='calcular()'>Calcular</button>
+
+        </div>
+        <div>
+            <h3 id ='resultado'></h3>
+        </div>
+
+        <h2>Feito por: Igor</h2>
+
+    </section>
+
+ <script src="./scripts/script.js"></script>
+ </body>
+ </html>
